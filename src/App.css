@@ -1,0 +1,107 @@
+#outerContainer {
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+#heading {
+  background-color: #022851;
+  display: flex;
+}
+
+#logo {
+  height: 50px;
+  padding: 25px;
+  padding-right: 125px;
+}
+
+#sidebar {
+  position: fixed;
+  right: 0;
+  top: 40%;
+}
+
+#sidebar-container {
+  color: white;
+}
+
+#menu {
+  background-color: #13639e;
+}
+
+#aboutsummary {
+  color:black;
+  /* display:flex; */
+  padding-right: 50%;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+#visualization {
+  font-family: arial;
+  font-size: 24px;
+  margin: 25px;
+  width: 350px;
+  height: 200px;
+  outline: dashed 1px black;
+  /* Center child horizontally*/
+  display: flex;
+  justify-content: center;
+
+}
+
+#infosummary {
+  color:black;
+  padding-right: 50%;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.flex-parent {
+  display: flex;
+}
+.flex-child {
+  flex: 1;
+}
+
+.font-metropolis{
+  font-family: 'Metropolis';
+}
+
+.vis-title{
+  font-family: 'Metropolis';
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.title-info{
+  align-items: flex-end;
+}
+
+.visualization-window {
+  font-family: 'Metropolis';
+  font-size: 24px;
+  height: 80%;
+  width: 80%;
+  outline: solid 1px black;
+  /* Center child horizontally*/
+}
+#homepage {
+  background-image: url(./images/farming-background.jfif);
+}
+/* #menuitem {
+  background-color: blanchedalmond;
+  color:#FFBF00
+} */
+
+body,html {
+  height: 100%;
+}
+
+#bg {
+  background-image: url(./images/farming-background.jfif);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
